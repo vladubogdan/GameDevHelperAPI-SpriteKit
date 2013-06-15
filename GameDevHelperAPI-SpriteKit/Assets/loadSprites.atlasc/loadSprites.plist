@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>SpriteHelper</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>format</key>
+	<string>APPL</string>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>loadSprites.1.png</string>
+			<key>size</key>
+			<string>{248, 252}</string>
+			<key>subimages</key>
+			<array>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>hat</string>
+					<key>spriteOffset</key>
+					<string>{7, 6}</string>
+					<key>spriteSourceSize</key>
+					<string>{122, 75}</string>
+					<key>textureRect</key>
+					<string>{{82, 141}, {63, 109}}</string>
+					<key>textureRotated</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>banana</string>
+					<key>spriteOffset</key>
+					<string>{5, 4}</string>
+					<key>spriteSourceSize</key>
+					<string>{92, 64}</string>
+					<key>textureRect</key>
+					<string>{{147, 1}, {82, 56}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>backpack</string>
+					<key>spriteOffset</key>
+					<string>{5, 6}</string>
+					<key>spriteSourceSize</key>
+					<string>{90, 106}</string>
+					<key>textureRect</key>
+					<string>{{1, 142}, {80, 95}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>pineapple</string>
+					<key>spriteOffset</key>
+					<string>{7, 5}</string>
+					<key>spriteSourceSize</key>
+					<string>{61, 134}</string>
+					<key>textureRect</key>
+					<string>{{96, 1}, {50, 126}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>canteen</string>
+					<key>spriteOffset</key>
+					<string>{8, 8}</string>
+					<key>spriteSourceSize</key>
+					<string>{60, 78}</string>
+					<key>textureRect</key>
+					<string>{{204, 59}, {42, 65}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>bananabunch</string>
+					<key>spriteOffset</key>
+					<string>{7, 4}</string>
+					<key>spriteSourceSize</key>
+					<string>{88, 65}</string>
+					<key>textureRect</key>
+					<string>{{146, 59}, {55, 77}}</string>
+					<key>textureRotated</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>statue</string>
+					<key>spriteOffset</key>
+					<string>{8, 5}</string>
+					<key>spriteSourceSize</key>
+					<string>{105, 148}</string>
+					<key>textureRect</key>
+					<string>{{1, 1}, {92, 138}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>loadSprites.2.png</string>
+			<key>size</key>
+			<string>{242, 453}</string>
+			<key>subimages</key>
+			<array>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>goldfishdead-sprite-04-iPad.png</string>
+					<key>spriteOffset</key>
+					<string>{22, 2}</string>
+					<key>spriteSourceSize</key>
+					<string>{152, 168}</string>
+					<key>textureRect</key>
+					<string>{{1, 134}, {118, 159}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>goldfishdead-sprite-01-iPad.png</string>
+					<key>spriteOffset</key>
+					<string>{5, 6}</string>
+					<key>spriteSourceSize</key>
+					<string>{169, 105}</string>
+					<key>textureRect</key>
+					<string>{{0, 295}, {90, 156}}</string>
+					<key>textureRotated</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>goldfishdead-sprite-03-iPad.png</string>
+					<key>spriteOffset</key>
+					<string>{2, 29}</string>
+					<key>spriteSourceSize</key>
+					<string>{152, 168}</string>
+					<key>textureRect</key>
+					<string>{{1, 1}, {149, 131}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>goldfishdead-sprite-02-iPad.png</string>
+					<key>spriteOffset</key>
+					<string>{4, 6}</string>
+					<key>spriteSourceSize</key>
+					<string>{169, 105}</string>
+					<key>textureRect</key>
+					<string>{{151, 1}, {89, 164}}</string>
+					<key>textureRotated</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>goldfishdead-sprite-05-iPad.png</string>
+					<key>spriteOffset</key>
+					<string>{5, 4}</string>
+					<key>spriteSourceSize</key>
+					<string>{169, 105}</string>
+					<key>textureRect</key>
+					<string>{{121, 167}, {88, 162}}</string>
+					<key>textureRotated</key>
+					<true/>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>loadSprites.1@2x.png</string>
+			<key>size</key>
+			<string>{493, 501}</string>
+			<key>subimages</key>
+			<array>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>hat@2x</string>
+					<key>spriteOffset</key>
+					<string>{14, 13}</string>
+					<key>spriteSourceSize</key>
+					<string>{244, 150}</string>
+					<key>textureRect</key>
+					<string>{{165, 282}, {126, 217}}</string>
+					<key>textureRotated</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>banana@2x</string>
+					<key>spriteOffset</key>
+					<string>{10, 7}</string>
+					<key>spriteSourceSize</key>
+					<string>{183, 127}</string>
+					<key>textureRect</key>
+					<string>{{294, 2}, {163, 111}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>backpack@2x</string>
+					<key>spriteOffset</key>
+					<string>{10, 11}</string>
+					<key>spriteSourceSize</key>
+					<string>{179, 212}</string>
+					<key>textureRect</key>
+					<string>{{2, 282}, {159, 190}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>pineapple@2x</string>
+					<key>spriteOffset</key>
+					<string>{13, 10}</string>
+					<key>spriteSourceSize</key>
+					<string>{121, 267}</string>
+					<key>textureRect</key>
+					<string>{{190, 2}, {100, 251}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>canteen@2x</string>
+					<key>spriteOffset</key>
+					<string>{15, 15}</string>
+					<key>spriteSourceSize</key>
+					<string>{119, 156}</string>
+					<key>textureRect</key>
+					<string>{{407, 117}, {84, 129}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>bananabunch@2x</string>
+					<key>spriteOffset</key>
+					<string>{14, 10}</string>
+					<key>spriteSourceSize</key>
+					<string>{175, 130}</string>
+					<key>textureRect</key>
+					<string>{{294, 117}, {109, 154}}</string>
+					<key>textureRotated</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>statue@2x</string>
+					<key>spriteOffset</key>
+					<string>{15, 10}</string>
+					<key>spriteSourceSize</key>
+					<string>{210, 295}</string>
+					<key>textureRect</key>
+					<string>{{2, 2}, {184, 276}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>loadSprites.2@2x.png</string>
+			<key>size</key>
+			<string>{482, 902}</string>
+			<key>subimages</key>
+			<array>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>goldfishdead-sprite-04-iPad@2x.png</string>
+					<key>spriteOffset</key>
+					<string>{44, 4}</string>
+					<key>spriteSourceSize</key>
+					<string>{304, 336}</string>
+					<key>textureRect</key>
+					<string>{{2, 268}, {236, 317}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>goldfishdead-sprite-01-iPad@2x.png</string>
+					<key>spriteOffset</key>
+					<string>{10, 14}</string>
+					<key>spriteSourceSize</key>
+					<string>{338, 210}</string>
+					<key>textureRect</key>
+					<string>{{2, 589}, {179, 311}}</string>
+					<key>textureRotated</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>goldfishdead-sprite-03-iPad@2x.png</string>
+					<key>spriteOffset</key>
+					<string>{4, 57}</string>
+					<key>spriteSourceSize</key>
+					<string>{304, 336}</string>
+					<key>textureRect</key>
+					<string>{{2, 2}, {297, 262}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>goldfishdead-sprite-02-iPad@2x.png</string>
+					<key>spriteOffset</key>
+					<string>{7, 13}</string>
+					<key>spriteSourceSize</key>
+					<string>{338, 210}</string>
+					<key>textureRect</key>
+					<string>{{303, 2}, {177, 327}}</string>
+					<key>textureRotated</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>goldfishdead-sprite-05-iPad@2x.png</string>
+					<key>spriteOffset</key>
+					<string>{10, 9}</string>
+					<key>spriteSourceSize</key>
+					<string>{338, 210}</string>
+					<key>textureRect</key>
+					<string>{{242, 333}, {176, 324}}</string>
+					<key>textureRotated</key>
+					<true/>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
