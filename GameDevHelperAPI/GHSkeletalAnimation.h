@@ -94,6 +94,9 @@ typedef enum GHSkeletalAnimationPlayMode_ {
 
 @property (nonatomic,readonly) NSString* name;
 
+-(id)initWithFileName:(NSString*)fileName inDirectory:(NSString*)dirName;
++(id)animationWithFileName:(NSString*)fileName inDirectory:(NSString*)dirName;
+
 -(id) initWithDictionary:(NSDictionary*)dict;
 +(id) animationWithDictionary:(NSDictionary*)dict;
 

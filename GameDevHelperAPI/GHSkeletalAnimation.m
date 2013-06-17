@@ -244,6 +244,30 @@
 @synthesize reversed = reversed_;
 @synthesize paused = paused_;
 
+-(id)initWithFileName:(NSString*)fileName inDirectory:(NSString*)dirName{
+    
+
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"plist" inDirectory:dirName];
+    
+    if(filePath){
+        
+        NSDictionary* dict = [NSDictionary dictionaryWithContentsOfFile:filePath];
+        if(dict){
+            return [self initWithDictionary:dict];
+        }
+    }
+    return nil;
+}
+
++(id)animationWithFileName:(NSString*)fileName inDirectory:(NSString*)dirName{
+#ifdef GH_ENABLE_ARC
+    return [[self alloc] initWithFileName:fileName inDirectory:dirName];
+#else
+    return [[[self alloc] initWithFileName:fileName inDirectory:dirName] autorelease];
+#endif
+}
+
+
 -(id) initWithDictionary:(NSDictionary*)dict{
     self = [super init];
     if(self){

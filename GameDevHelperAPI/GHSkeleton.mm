@@ -434,9 +434,12 @@
 
 //    [self unscheduleUpdate];
 }
--(void) update: (float) dt
+-(void) update: (CFTimeInterval) timeInterval
 {
     float time = 0;
+    
+    float dt = timeInterval - lastTimeInterval;
+    lastTimeInterval = timeInterval;
     
     if(transitionTime != nil)
     {

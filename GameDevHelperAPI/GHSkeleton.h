@@ -78,6 +78,8 @@
     NSNumber* transitionTime;//not nil only when transtioning to a new animation
     float currentTranstionTime;
     id<GHSkeletonDelegate> delegate;
+    
+    CFTimeInterval lastTimeInterval;//used when animation is running
 }
 /**
  Creates a skeleton object given a file name.
@@ -159,5 +161,8 @@ This will change or set an animation by transitioning each bone position
  Stops the active skeleton animation.
  */
 -(void)stopAnimation;
+
+
+-(void) update: (CFTimeInterval) dt;
 
 @end
