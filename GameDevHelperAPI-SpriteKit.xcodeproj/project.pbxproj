@@ -38,6 +38,7 @@
 		6EE13B31176F3CE50047FEB2 /* LoadSkeletonScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B30176F3CE50047FEB2 /* LoadSkeletonScene.m */; };
 		6EE13B35176F3EC90047FEB2 /* skeletons in Resources */ = {isa = PBXBuildFile; fileRef = 6EE13B33176F3EC90047FEB2 /* skeletons */; };
 		6EE13B39176F52F50047FEB2 /* Officer.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 6EE13B38176F52F50047FEB2 /* Officer.atlasc */; };
+		6EE13B3C176F596A0047FEB2 /* LoadSkeletonPosesScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B3B176F596A0047FEB2 /* LoadSkeletonPosesScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,8 @@
 		6EE13B30176F3CE50047FEB2 /* LoadSkeletonScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadSkeletonScene.m; sourceTree = "<group>"; };
 		6EE13B33176F3EC90047FEB2 /* skeletons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = skeletons; sourceTree = "<group>"; };
 		6EE13B38176F52F50047FEB2 /* Officer.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Officer.atlasc; sourceTree = "<group>"; };
+		6EE13B3A176F596A0047FEB2 /* LoadSkeletonPosesScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadSkeletonPosesScene.h; sourceTree = "<group>"; };
+		6EE13B3B176F596A0047FEB2 /* LoadSkeletonPosesScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadSkeletonPosesScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,8 @@
 				6EE13B13176F04310047FEB2 /* LoadPhysicalSpritesScene.m */,
 				6EE13B2F176F3CE50047FEB2 /* LoadSkeletonScene.h */,
 				6EE13B30176F3CE50047FEB2 /* LoadSkeletonScene.m */,
+				6EE13B3A176F596A0047FEB2 /* LoadSkeletonPosesScene.h */,
+				6EE13B3B176F596A0047FEB2 /* LoadSkeletonPosesScene.m */,
 				6ECC0CEE176B331100763EF7 /* Spaceship.png */,
 				6ECC0CF0176B331100763EF7 /* Images.xcassets */,
 				6ECC0CD7176B331100763EF7 /* Supporting Files */,
@@ -357,6 +362,7 @@
 				6EE13B2C176F34C60047FEB2 /* GHSkeletalAnimationCache.mm in Sources */,
 				6EE13B2D176F34C60047FEB2 /* GHSkeleton.mm in Sources */,
 				6EE13B29176F34C60047FEB2 /* GHBone.mm in Sources */,
+				6EE13B3C176F596A0047FEB2 /* LoadSkeletonPosesScene.m in Sources */,
 				6EE13B2A176F34C60047FEB2 /* GHBoneSkin.mm in Sources */,
 				6ECC0CE1176B331100763EF7 /* AppDelegate.m in Sources */,
 				6ECC0CDD176B331100763EF7 /* main.m in Sources */,

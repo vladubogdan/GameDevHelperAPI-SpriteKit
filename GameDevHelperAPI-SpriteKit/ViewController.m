@@ -10,6 +10,7 @@
 #import "LoadSimpleSpritesScene.h"
 #import "LoadPhysicalSpritesScene.h"
 #import "LoadSkeletonScene.h"
+#import "LoadSkeletonPosesScene.h"
 
 @interface ViewController ()
 {
@@ -19,6 +20,7 @@
 @property (nonatomic) IBOutlet UIButton *loadSpritesBut;
 @property (nonatomic) IBOutlet UIButton *loadPhysicalSpritesBut;
 @property (nonatomic) IBOutlet UIButton *loadSkeletonBut;
+@property (nonatomic) IBOutlet UIButton *loadSkeletonPoseBut;
 @end
 
 
@@ -39,7 +41,7 @@
 
 - (void)viewDidLoad
 {
-    menuButtons = @[_loadSpritesBut, _loadPhysicalSpritesBut, _loadSkeletonBut];
+    menuButtons = @[_loadSpritesBut, _loadPhysicalSpritesBut, _loadSkeletonBut, _loadSkeletonPoseBut];
     
     [super viewDidLoad];
 
@@ -94,7 +96,18 @@
     [skView presentScene:scene];
 }
 
-
+-(IBAction)loadSkeletonPose:(id)sender
+{
+    SKView * skView = (SKView *)self.view;
+    
+    // Create and configure the scene.
+    SKScene * scene = [LoadSkeletonPosesScene sceneWithSize:skView.bounds.size];
+    scene.scaleMode = SKSceneScaleModeAspectFill;
+    
+    [self goToScene];
+    // Present the scene.
+    [skView presentScene:scene];
+}
 
 
 
