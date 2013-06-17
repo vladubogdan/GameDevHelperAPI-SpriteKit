@@ -179,6 +179,7 @@
                                        self.position.y);
         
         //we inverse y points here because of spritekit flip coordinates
+        
         return  (atan2(curPoint.y - endPoint.y,
                        endPoint.x - curPoint.x)*180.0)/M_PI + 90;
     }

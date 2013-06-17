@@ -75,7 +75,7 @@
         CGPoint bonePoint = _father.position;
         CGPoint currentPos = [sprite position];
         
-        float curAngle = [sprite rotation];
+        float curAngle = 360 - [sprite rotation];
         connectionAngle = curAngle;
         
         //we flip y for sprite kit
@@ -134,6 +134,9 @@
 
     [sprite setPosition:CGPointMake(origin.x + posOffset.x,
                                     origin.y - posOffset.y)];
-    [sprite setRotation:newAngle];
+    //[sprite setRotation:360 - newAngle];
+    
+    sprite.zRotation = (360 - newAngle) / 180.0 * M_PI;
+    
 }
 @end

@@ -11,6 +11,7 @@
 #import "GHBoneSkin.h"
 #import "GHSkeletalAnimationCache.h"
 #import "GHSkeletalAnimation.h"
+#import "ghMacros.h"
 
 @interface GHSkeleton()
 -(void)loadSprites:(NSArray*)spritesInfo;
@@ -82,7 +83,6 @@
 //        NSString* sheetFile = [pathToSheet stringByAppendingPathComponent:sheetName];        
             batchNode_ = [SKNode node];
             [self addChild:batchNode_];
-            batchNode_.position = CGPointZero;
             
 //            NSString* sheetPlist = [sheetFile stringByDeletingPathExtension];
 //            sheetPlist = [sheetPlist stringByAppendingPathExtension:@"plist"];
@@ -92,7 +92,7 @@
         [self loadBones:[dict objectForKey:@"root"]];
         [self loadSprites:[dict objectForKey:@"sprites"]];
         [self updateSkins];
-        
+
         
         NSDictionary* posesDict = [dict objectForKey:@"poses"];
         if(posesDict){
@@ -159,14 +159,24 @@
         NSString* sprName = [sprInfo objectForKey:@"sprName"];
         if(sprName){
             GHSprite* newSpr = [GHSprite spriteNodeWithImageNamed:sprName]; //spriteWithSpriteFrameName:sprName];
+
             [newSpr setName:skinName];
+
+            newSpr.anchorPoint = CGPointMake(0.5, 0.5);
             [newSpr setPosition:localPos];
-            [newSpr setRotation:angle];
+            
+
+            //WHATS GOING ON HERE? WHY DO I NEED TO DO THIS?
+            newSpr.zRotation = (360 - angle) / 180.0 * M_PI;
+            
+            
             //[newSpr setColor:ccc3(255, 255, 255)];
             [newSpr setVisible:visible];
+
             if(batchNode_ != nil){
                 [batchNode_ addChild:newSpr];
             }
+            
             
             if(boneUUID){
                 for(GHBone* bone in allBones)

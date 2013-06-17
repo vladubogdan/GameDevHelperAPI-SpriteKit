@@ -60,7 +60,7 @@
         
             skeleton.position = location;
         
-            [self addChild:skeleton];
+            [self addChild:skeleton];            
         }
     }
 }

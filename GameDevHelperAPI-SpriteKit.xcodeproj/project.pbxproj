@@ -36,8 +36,8 @@
 		6EE13B2C176F34C60047FEB2 /* GHSkeletalAnimationCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B26176F34C60047FEB2 /* GHSkeletalAnimationCache.mm */; };
 		6EE13B2D176F34C60047FEB2 /* GHSkeleton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B28176F34C60047FEB2 /* GHSkeleton.mm */; };
 		6EE13B31176F3CE50047FEB2 /* LoadSkeletonScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B30176F3CE50047FEB2 /* LoadSkeletonScene.m */; };
-		6EE13B34176F3EC90047FEB2 /* Officer.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 6EE13B32176F3EC90047FEB2 /* Officer.atlasc */; };
 		6EE13B35176F3EC90047FEB2 /* skeletons in Resources */ = {isa = PBXBuildFile; fileRef = 6EE13B33176F3EC90047FEB2 /* skeletons */; };
+		6EE13B39176F52F50047FEB2 /* Officer.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 6EE13B38176F52F50047FEB2 /* Officer.atlasc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,8 +97,8 @@
 		6EE13B2E176F394A0047FEB2 /* ghMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ghMacros.h; sourceTree = "<group>"; };
 		6EE13B2F176F3CE50047FEB2 /* LoadSkeletonScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadSkeletonScene.h; sourceTree = "<group>"; };
 		6EE13B30176F3CE50047FEB2 /* LoadSkeletonScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadSkeletonScene.m; sourceTree = "<group>"; };
-		6EE13B32176F3EC90047FEB2 /* Officer.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Officer.atlasc; sourceTree = "<group>"; };
 		6EE13B33176F3EC90047FEB2 /* skeletons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = skeletons; sourceTree = "<group>"; };
+		6EE13B38176F52F50047FEB2 /* Officer.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Officer.atlasc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 		6EC1788A176B6613000E6BFF /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				6EE13B32176F3EC90047FEB2 /* Officer.atlasc */,
+				6EE13B38176F52F50047FEB2 /* Officer.atlasc */,
 				6EE13B33176F3EC90047FEB2 /* skeletons */,
 				6EE13B1B176F20FD0047FEB2 /* bodies */,
 				6EE13B1C176F20FD0047FEB2 /* PhysicalSpritesObjects.atlasc */,
@@ -320,10 +320,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE13B39176F52F50047FEB2 /* Officer.atlasc in Resources */,
 				6ECC0CEF176B331100763EF7 /* Spaceship.png in Resources */,
 				6EE13B35176F3EC90047FEB2 /* skeletons in Resources */,
 				6ECC0CF1176B331100763EF7 /* Images.xcassets in Resources */,
-				6EE13B34176F3EC90047FEB2 /* Officer.atlasc in Resources */,
 				6EE13B1D176F20FD0047FEB2 /* bodies in Resources */,
 				6EE13B11176F034A0047FEB2 /* loadSprites.atlasc in Resources */,
 				6EE13B1E176F20FD0047FEB2 /* PhysicalSpritesObjects.atlasc in Resources */,

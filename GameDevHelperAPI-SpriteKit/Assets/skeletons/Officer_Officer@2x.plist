@@ -298,45 +298,45 @@
 			<key>positions</key>
 			<dict>
 				<key>248C7ABE-AB9F-4E9C-94AD-F42D905B36A2</key>
-				<string>{-9, -55}</string>
+				<string>{-12, -52}</string>
 				<key>2EEAEFC3-D0D6-4931-8D4D-FF952C40EDE6</key>
-				<string>{-31, 17}</string>
+				<string>{-34, 19}</string>
 				<key>32750077-2BA5-47F7-95C0-7E2EFA6E3D27</key>
-				<string>{-23, -107}</string>
+				<string>{-26, -104}</string>
 				<key>371F9268-BCB2-4F4E-88DA-37796B2E1ED8</key>
-				<string>{53, 99}</string>
+				<string>{50, 102}</string>
 				<key>70547121-3CA2-439C-B835-DFB20CDF9E2C</key>
-				<string>{16, -105}</string>
+				<string>{13, -102}</string>
 				<key>7324475C-AEC8-4F5E-AF36-CBBF7F897549</key>
-				<string>{-3, -108}</string>
+				<string>{-6, -105}</string>
 				<key>78CC99DF-E49D-4A10-A543-AFC4188340F2</key>
-				<string>{4, -5}</string>
+				<string>{1, -2}</string>
 				<key>7B7FE5B4-1B59-448F-AF51-9951A11F0AC0</key>
-				<string>{63, 25}</string>
+				<string>{60, 28}</string>
 				<key>8B4B51F9-C980-4A17-86CE-155FA850600D</key>
-				<string>{-24, 54}</string>
+				<string>{-27, 57}</string>
 				<key>962E5653-28E4-4DF6-9A2F-35C44B51D17C</key>
-				<string>{98, 112}</string>
+				<string>{95, 115}</string>
 				<key>9A1BAD2D-B13D-44DB-9EBB-0C2F045FE341</key>
-				<string>{39, 87}</string>
+				<string>{36, 90}</string>
 				<key>9C68329E-AC9B-4ED0-959D-FAFDB77FABDB</key>
-				<string>{14, 83}</string>
+				<string>{11, 86}</string>
 				<key>9FE1E9D9-F497-4616-8056-59AF71B2FA2A</key>
-				<string>{20, -11}</string>
+				<string>{17, -8}</string>
 				<key>A6F9F972-6AD6-466C-A6F6-9E9D28FAB450</key>
-				<string>{53, -6}</string>
+				<string>{50, -3}</string>
 				<key>BE5FAEA7-5B83-4F94-88BD-38B6064A1E45</key>
-				<string>{52, 70}</string>
+				<string>{49, 73}</string>
 				<key>D4C64572-88E9-47A2-94EE-7AD1FA25C1AC</key>
-				<string>{47, -108}</string>
+				<string>{44, -105}</string>
 				<key>D8D11F2C-7CBE-483C-A4BC-EE1116A58300</key>
-				<string>{-19, -3}</string>
+				<string>{-22, -1}</string>
 				<key>E08EFAEF-8EE3-489F-A94E-271778E069DA</key>
-				<string>{23, -59}</string>
+				<string>{20, -56}</string>
 				<key>FDEB0546-33FA-4B4E-9986-C0C901D8F501</key>
-				<string>{-7, -11}</string>
+				<string>{-10, -8}</string>
 				<key>FF87E76B-D23A-443F-9137-6B3AFD6A2234</key>
-				<string>{36, 1}</string>
+				<string>{33, 4}</string>
 			</dict>
 			<key>skinTex</key>
 			<dict>
@@ -733,45 +733,45 @@
 			<key>positions</key>
 			<dict>
 				<key>248C7ABE-AB9F-4E9C-94AD-F42D905B36A2</key>
-				<string>{34, -94}</string>
+				<string>{31, -91}</string>
 				<key>2EEAEFC3-D0D6-4931-8D4D-FF952C40EDE6</key>
-				<string>{101, -97}</string>
+				<string>{98, -95}</string>
 				<key>32750077-2BA5-47F7-95C0-7E2EFA6E3D27</key>
-				<string>{-20, -92}</string>
+				<string>{-23, -90}</string>
 				<key>371F9268-BCB2-4F4E-88DA-37796B2E1ED8</key>
-				<string>{200, -75}</string>
+				<string>{197, -72}</string>
 				<key>70547121-3CA2-439C-B835-DFB20CDF9E2C</key>
-				<string>{16, -93}</string>
+				<string>{13, -90}</string>
 				<key>7324475C-AEC8-4F5E-AF36-CBBF7F897549</key>
-				<string>{-32, -108}</string>
+				<string>{-35, -105}</string>
 				<key>78CC99DF-E49D-4A10-A543-AFC4188340F2</key>
-				<string>{89, -89}</string>
+				<string>{86, -87}</string>
 				<key>7B7FE5B4-1B59-448F-AF51-9951A11F0AC0</key>
-				<string>{138, -116}</string>
+				<string>{135, -113}</string>
 				<key>8B4B51F9-C980-4A17-86CE-155FA850600D</key>
-				<string>{136, -81}</string>
+				<string>{133, -78}</string>
 				<key>962E5653-28E4-4DF6-9A2F-35C44B51D17C</key>
-				<string>{245, -87}</string>
+				<string>{242, -84}</string>
 				<key>9A1BAD2D-B13D-44DB-9EBB-0C2F045FE341</key>
-				<string>{186, -87}</string>
+				<string>{183, -84}</string>
 				<key>9C68329E-AC9B-4ED0-959D-FAFDB77FABDB</key>
-				<string>{179, -61}</string>
+				<string>{176, -58}</string>
 				<key>9FE1E9D9-F497-4616-8056-59AF71B2FA2A</key>
-				<string>{107, -99}</string>
+				<string>{104, -96}</string>
 				<key>A6F9F972-6AD6-466C-A6F6-9E9D28FAB450</key>
-				<string>{86, -111}</string>
+				<string>{83, -108}</string>
 				<key>BE5FAEA7-5B83-4F94-88BD-38B6064A1E45</key>
-				<string>{182, -101}</string>
+				<string>{179, -98}</string>
 				<key>D4C64572-88E9-47A2-94EE-7AD1FA25C1AC</key>
-				<string>{-15, -100}</string>
+				<string>{-18, -97}</string>
 				<key>D8D11F2C-7CBE-483C-A4BC-EE1116A58300</key>
-				<string>{82, -110}</string>
+				<string>{79, -107}</string>
 				<key>E08EFAEF-8EE3-489F-A94E-271778E069DA</key>
-				<string>{59, -109}</string>
+				<string>{56, -106}</string>
 				<key>FDEB0546-33FA-4B4E-9986-C0C901D8F501</key>
-				<string>{74, -78}</string>
+				<string>{71, -75}</string>
 				<key>FF87E76B-D23A-443F-9137-6B3AFD6A2234</key>
-				<string>{104, -105}</string>
+				<string>{101, -103}</string>
 			</dict>
 			<key>skinTex</key>
 			<dict>
@@ -1168,45 +1168,45 @@
 			<key>positions</key>
 			<dict>
 				<key>248C7ABE-AB9F-4E9C-94AD-F42D905B36A2</key>
-				<string>{-18, -51}</string>
+				<string>{-21, -48}</string>
 				<key>2EEAEFC3-D0D6-4931-8D4D-FF952C40EDE6</key>
-				<string>{-88, 30}</string>
+				<string>{-91, 33}</string>
 				<key>32750077-2BA5-47F7-95C0-7E2EFA6E3D27</key>
-				<string>{-27, -102}</string>
+				<string>{-30, -99}</string>
 				<key>371F9268-BCB2-4F4E-88DA-37796B2E1ED8</key>
-				<string>{3, 120}</string>
+				<string>{0, 123}</string>
 				<key>70547121-3CA2-439C-B835-DFB20CDF9E2C</key>
-				<string>{30, -103}</string>
+				<string>{27, -100}</string>
 				<key>7324475C-AEC8-4F5E-AF36-CBBF7F897549</key>
-				<string>{-6, -104}</string>
+				<string>{-9, -101}</string>
 				<key>78CC99DF-E49D-4A10-A543-AFC4188340F2</key>
-				<string>{0, 0}</string>
+				<string>{-3, 3}</string>
 				<key>7B7FE5B4-1B59-448F-AF51-9951A11F0AC0</key>
-				<string>{59, 82}</string>
+				<string>{56, 85}</string>
 				<key>8B4B51F9-C980-4A17-86CE-155FA850600D</key>
-				<string>{-60, 57}</string>
+				<string>{-63, 60}</string>
 				<key>962E5653-28E4-4DF6-9A2F-35C44B51D17C</key>
-				<string>{16, 154}</string>
+				<string>{13, 157}</string>
 				<key>9A1BAD2D-B13D-44DB-9EBB-0C2F045FE341</key>
-				<string>{3, 96}</string>
+				<string>{0, 99}</string>
 				<key>9C68329E-AC9B-4ED0-959D-FAFDB77FABDB</key>
-				<string>{-23, 90}</string>
+				<string>{-26, 92}</string>
 				<key>9FE1E9D9-F497-4616-8056-59AF71B2FA2A</key>
-				<string>{19, -4}</string>
+				<string>{16, -2}</string>
 				<key>A6F9F972-6AD6-466C-A6F6-9E9D28FAB450</key>
-				<string>{105, 96}</string>
+				<string>{102, 99}</string>
 				<key>BE5FAEA7-5B83-4F94-88BD-38B6064A1E45</key>
-				<string>{15, 88}</string>
+				<string>{12, 91}</string>
 				<key>D4C64572-88E9-47A2-94EE-7AD1FA25C1AC</key>
-				<string>{54, -105}</string>
+				<string>{51, -102}</string>
 				<key>D8D11F2C-7CBE-483C-A4BC-EE1116A58300</key>
-				<string>{-103, 13}</string>
+				<string>{-106, 16}</string>
 				<key>E08EFAEF-8EE3-489F-A94E-271778E069DA</key>
-				<string>{30, -46}</string>
+				<string>{27, -43}</string>
 				<key>FDEB0546-33FA-4B4E-9986-C0C901D8F501</key>
-				<string>{-18, -6}</string>
+				<string>{-21, -3}</string>
 				<key>FF87E76B-D23A-443F-9137-6B3AFD6A2234</key>
-				<string>{88, 89}</string>
+				<string>{85, 92}</string>
 			</dict>
 			<key>skinTex</key>
 			<dict>
@@ -1603,45 +1603,45 @@
 			<key>positions</key>
 			<dict>
 				<key>248C7ABE-AB9F-4E9C-94AD-F42D905B36A2</key>
-				<string>{-9, -55}</string>
+				<string>{-12, -52}</string>
 				<key>2EEAEFC3-D0D6-4931-8D4D-FF952C40EDE6</key>
-				<string>{-39, 5}</string>
+				<string>{-42, 7}</string>
 				<key>32750077-2BA5-47F7-95C0-7E2EFA6E3D27</key>
-				<string>{-23, -107}</string>
+				<string>{-26, -104}</string>
 				<key>371F9268-BCB2-4F4E-88DA-37796B2E1ED8</key>
-				<string>{1, 112}</string>
+				<string>{-2, 115}</string>
 				<key>70547121-3CA2-439C-B835-DFB20CDF9E2C</key>
-				<string>{16, -105}</string>
+				<string>{13, -102}</string>
 				<key>7324475C-AEC8-4F5E-AF36-CBBF7F897549</key>
-				<string>{-3, -108}</string>
+				<string>{-6, -105}</string>
 				<key>78CC99DF-E49D-4A10-A543-AFC4188340F2</key>
-				<string>{4, -5}</string>
+				<string>{1, -2}</string>
 				<key>7B7FE5B4-1B59-448F-AF51-9951A11F0AC0</key>
-				<string>{62, 108}</string>
+				<string>{59, 110}</string>
 				<key>8B4B51F9-C980-4A17-86CE-155FA850600D</key>
-				<string>{-45, 43}</string>
+				<string>{-48, 46}</string>
 				<key>962E5653-28E4-4DF6-9A2F-35C44B51D17C</key>
-				<string>{16, 156}</string>
+				<string>{13, 159}</string>
 				<key>9A1BAD2D-B13D-44DB-9EBB-0C2F045FE341</key>
-				<string>{-2, 94}</string>
+				<string>{-5, 96}</string>
 				<key>9C68329E-AC9B-4ED0-959D-FAFDB77FABDB</key>
-				<string>{-25, 86}</string>
+				<string>{-28, 89}</string>
 				<key>9FE1E9D9-F497-4616-8056-59AF71B2FA2A</key>
-				<string>{20, -11}</string>
+				<string>{17, -8}</string>
 				<key>A6F9F972-6AD6-466C-A6F6-9E9D28FAB450</key>
-				<string>{91, 116}</string>
+				<string>{88, 119}</string>
 				<key>BE5FAEA7-5B83-4F94-88BD-38B6064A1E45</key>
-				<string>{19, 88}</string>
+				<string>{16, 91}</string>
 				<key>D4C64572-88E9-47A2-94EE-7AD1FA25C1AC</key>
-				<string>{47, -108}</string>
+				<string>{44, -105}</string>
 				<key>D8D11F2C-7CBE-483C-A4BC-EE1116A58300</key>
-				<string>{-29, -17}</string>
+				<string>{-32, -14}</string>
 				<key>E08EFAEF-8EE3-489F-A94E-271778E069DA</key>
-				<string>{23, -59}</string>
+				<string>{20, -56}</string>
 				<key>FDEB0546-33FA-4B4E-9986-C0C901D8F501</key>
-				<string>{-7, -11}</string>
+				<string>{-10, -8}</string>
 				<key>FF87E76B-D23A-443F-9137-6B3AFD6A2234</key>
-				<string>{86, 133}</string>
+				<string>{83, 136}</string>
 			</dict>
 			<key>skinTex</key>
 			<dict>
@@ -2038,45 +2038,45 @@
 			<key>positions</key>
 			<dict>
 				<key>248C7ABE-AB9F-4E9C-94AD-F42D905B36A2</key>
-				<string>{-18, -51}</string>
+				<string>{-21, -48}</string>
 				<key>2EEAEFC3-D0D6-4931-8D4D-FF952C40EDE6</key>
-				<string>{-27, 2}</string>
+				<string>{-30, 5}</string>
 				<key>32750077-2BA5-47F7-95C0-7E2EFA6E3D27</key>
-				<string>{-27, -102}</string>
+				<string>{-30, -99}</string>
 				<key>371F9268-BCB2-4F4E-88DA-37796B2E1ED8</key>
-				<string>{3, 120}</string>
+				<string>{0, 123}</string>
 				<key>70547121-3CA2-439C-B835-DFB20CDF9E2C</key>
-				<string>{15, -103}</string>
+				<string>{12, -100}</string>
 				<key>7324475C-AEC8-4F5E-AF36-CBBF7F897549</key>
-				<string>{-6, -104}</string>
+				<string>{-9, -101}</string>
 				<key>78CC99DF-E49D-4A10-A543-AFC4188340F2</key>
-				<string>{0, 0}</string>
+				<string>{-3, 3}</string>
 				<key>7B7FE5B4-1B59-448F-AF51-9951A11F0AC0</key>
-				<string>{25, 45}</string>
+				<string>{23, 47}</string>
 				<key>8B4B51F9-C980-4A17-86CE-155FA850600D</key>
-				<string>{-29, 41}</string>
+				<string>{-32, 44}</string>
 				<key>962E5653-28E4-4DF6-9A2F-35C44B51D17C</key>
-				<string>{16, 154}</string>
+				<string>{13, 156}</string>
 				<key>9A1BAD2D-B13D-44DB-9EBB-0C2F045FE341</key>
-				<string>{3, 96}</string>
+				<string>{0, 99}</string>
 				<key>9C68329E-AC9B-4ED0-959D-FAFDB77FABDB</key>
-				<string>{-23, 90}</string>
+				<string>{-26, 92}</string>
 				<key>9FE1E9D9-F497-4616-8056-59AF71B2FA2A</key>
-				<string>{19, -4}</string>
+				<string>{16, -2}</string>
 				<key>A6F9F972-6AD6-466C-A6F6-9E9D28FAB450</key>
-				<string>{44, 2}</string>
+				<string>{41, 4}</string>
 				<key>BE5FAEA7-5B83-4F94-88BD-38B6064A1E45</key>
-				<string>{15, 88}</string>
+				<string>{12, 91}</string>
 				<key>D4C64572-88E9-47A2-94EE-7AD1FA25C1AC</key>
-				<string>{39, -105}</string>
+				<string>{36, -102}</string>
 				<key>D8D11F2C-7CBE-483C-A4BC-EE1116A58300</key>
-				<string>{-12, -15}</string>
+				<string>{-15, -12}</string>
 				<key>E08EFAEF-8EE3-489F-A94E-271778E069DA</key>
-				<string>{27, -47}</string>
+				<string>{24, -44}</string>
 				<key>FDEB0546-33FA-4B4E-9986-C0C901D8F501</key>
-				<string>{-18, -6}</string>
+				<string>{-21, -3}</string>
 				<key>FF87E76B-D23A-443F-9137-6B3AFD6A2234</key>
-				<string>{32, 15}</string>
+				<string>{29, 18}</string>
 			</dict>
 			<key>skinTex</key>
 			<dict>
@@ -2473,45 +2473,45 @@
 			<key>positions</key>
 			<dict>
 				<key>248C7ABE-AB9F-4E9C-94AD-F42D905B36A2</key>
-				<string>{-25, -51}</string>
+				<string>{-28, -48}</string>
 				<key>2EEAEFC3-D0D6-4931-8D4D-FF952C40EDE6</key>
-				<string>{89, 65}</string>
+				<string>{86, 67}</string>
 				<key>32750077-2BA5-47F7-95C0-7E2EFA6E3D27</key>
-				<string>{-60, -93}</string>
+				<string>{-63, -90}</string>
 				<key>371F9268-BCB2-4F4E-88DA-37796B2E1ED8</key>
-				<string>{45, 97}</string>
+				<string>{42, 100}</string>
 				<key>70547121-3CA2-439C-B835-DFB20CDF9E2C</key>
-				<string>{9, -97}</string>
+				<string>{6, -94}</string>
 				<key>7324475C-AEC8-4F5E-AF36-CBBF7F897549</key>
-				<string>{-44, -105}</string>
+				<string>{-47, -102}</string>
 				<key>78CC99DF-E49D-4A10-A543-AFC4188340F2</key>
-				<string>{6, -11}</string>
+				<string>{3, -8}</string>
 				<key>7B7FE5B4-1B59-448F-AF51-9951A11F0AC0</key>
-				<string>{46, 25}</string>
+				<string>{43, 28}</string>
 				<key>8B4B51F9-C980-4A17-86CE-155FA850600D</key>
-				<string>{51, 56}</string>
+				<string>{48, 59}</string>
 				<key>962E5653-28E4-4DF6-9A2F-35C44B51D17C</key>
-				<string>{66, 139}</string>
+				<string>{63, 142}</string>
 				<key>9A1BAD2D-B13D-44DB-9EBB-0C2F045FE341</key>
-				<string>{37, 81}</string>
+				<string>{34, 83}</string>
 				<key>9C68329E-AC9B-4ED0-959D-FAFDB77FABDB</key>
-				<string>{10, 80}</string>
+				<string>{7, 82}</string>
 				<key>9FE1E9D9-F497-4616-8056-59AF71B2FA2A</key>
-				<string>{25, -5}</string>
+				<string>{22, -2}</string>
 				<key>A6F9F972-6AD6-466C-A6F6-9E9D28FAB450</key>
-				<string>{100, 27}</string>
+				<string>{97, 30}</string>
 				<key>BE5FAEA7-5B83-4F94-88BD-38B6064A1E45</key>
-				<string>{48, 71}</string>
+				<string>{45, 74}</string>
 				<key>D4C64572-88E9-47A2-94EE-7AD1FA25C1AC</key>
-				<string>{38, -107}</string>
+				<string>{35, -104}</string>
 				<key>D8D11F2C-7CBE-483C-A4BC-EE1116A58300</key>
-				<string>{90, 88}</string>
+				<string>{87, 90}</string>
 				<key>E08EFAEF-8EE3-489F-A94E-271778E069DA</key>
-				<string>{24, -53}</string>
+				<string>{21, -51}</string>
 				<key>FDEB0546-33FA-4B4E-9986-C0C901D8F501</key>
-				<string>{-13, -9}</string>
+				<string>{-16, -6}</string>
 				<key>FF87E76B-D23A-443F-9137-6B3AFD6A2234</key>
-				<string>{82, 25}</string>
+				<string>{79, 28}</string>
 			</dict>
 			<key>skinTex</key>
 			<dict>
@@ -2908,45 +2908,45 @@
 			<key>positions</key>
 			<dict>
 				<key>248C7ABE-AB9F-4E9C-94AD-F42D905B36A2</key>
-				<string>{1, -67}</string>
+				<string>{-2, -65}</string>
 				<key>2EEAEFC3-D0D6-4931-8D4D-FF952C40EDE6</key>
-				<string>{69, 65}</string>
+				<string>{66, 68}</string>
 				<key>32750077-2BA5-47F7-95C0-7E2EFA6E3D27</key>
-				<string>{-46, -93}</string>
+				<string>{-49, -91}</string>
 				<key>371F9268-BCB2-4F4E-88DA-37796B2E1ED8</key>
-				<string>{17, 98}</string>
+				<string>{14, 101}</string>
 				<key>70547121-3CA2-439C-B835-DFB20CDF9E2C</key>
-				<string>{31, -107}</string>
+				<string>{28, -104}</string>
 				<key>7324475C-AEC8-4F5E-AF36-CBBF7F897549</key>
-				<string>{-29, -103}</string>
+				<string>{-32, -101}</string>
 				<key>78CC99DF-E49D-4A10-A543-AFC4188340F2</key>
-				<string>{4, -17}</string>
+				<string>{1, -14}</string>
 				<key>7B7FE5B4-1B59-448F-AF51-9951A11F0AC0</key>
-				<string>{62, 38}</string>
+				<string>{59, 40}</string>
 				<key>8B4B51F9-C980-4A17-86CE-155FA850600D</key>
-				<string>{31, 61}</string>
+				<string>{28, 64}</string>
 				<key>962E5653-28E4-4DF6-9A2F-35C44B51D17C</key>
-				<string>{39, 140}</string>
+				<string>{36, 143}</string>
 				<key>9A1BAD2D-B13D-44DB-9EBB-0C2F045FE341</key>
-				<string>{10, 81}</string>
+				<string>{7, 84}</string>
 				<key>9C68329E-AC9B-4ED0-959D-FAFDB77FABDB</key>
-				<string>{-15, 76}</string>
+				<string>{-18, 79}</string>
 				<key>9FE1E9D9-F497-4616-8056-59AF71B2FA2A</key>
-				<string>{20, -23}</string>
+				<string>{17, -21}</string>
 				<key>A6F9F972-6AD6-466C-A6F6-9E9D28FAB450</key>
-				<string>{87, 77}</string>
+				<string>{84, 80}</string>
 				<key>BE5FAEA7-5B83-4F94-88BD-38B6064A1E45</key>
-				<string>{26, 66}</string>
+				<string>{23, 69}</string>
 				<key>D4C64572-88E9-47A2-94EE-7AD1FA25C1AC</key>
-				<string>{62, -108}</string>
+				<string>{59, -105}</string>
 				<key>D8D11F2C-7CBE-483C-A4BC-EE1116A58300</key>
-				<string>{92, 67}</string>
+				<string>{89, 69}</string>
 				<key>E08EFAEF-8EE3-489F-A94E-271778E069DA</key>
-				<string>{47, -63}</string>
+				<string>{44, -60}</string>
 				<key>FDEB0546-33FA-4B4E-9986-C0C901D8F501</key>
-				<string>{-7, -23}</string>
+				<string>{-10, -21}</string>
 				<key>FF87E76B-D23A-443F-9137-6B3AFD6A2234</key>
-				<string>{91, 59}</string>
+				<string>{88, 62}</string>
 			</dict>
 			<key>skinTex</key>
 			<dict>
@@ -3083,7 +3083,7 @@
 												<key>children</key>
 												<array/>
 												<key>localPos</key>
-												<string>{-13, -16}</string>
+												<string>{-120, 48}</string>
 												<key>name</key>
 												<string>rightHand</string>
 												<key>uuid</key>
@@ -3091,7 +3091,7 @@
 											</dict>
 										</array>
 										<key>localPos</key>
-										<string>{-27, 2}</string>
+										<string>{-103, 64}</string>
 										<key>name</key>
 										<string>rightLowerArm</string>
 										<key>uuid</key>
@@ -3099,7 +3099,7 @@
 									</dict>
 								</array>
 								<key>localPos</key>
-								<string>{-29, 41}</string>
+								<string>{-71, 85}</string>
 								<key>name</key>
 								<string>rightUpperArm</string>
 								<key>uuid</key>
@@ -3128,7 +3128,7 @@
 												<key>children</key>
 												<array/>
 												<key>localPos</key>
-												<string>{44, 1}</string>
+												<string>{107, 66}</string>
 												<key>name</key>
 												<string>leftHand</string>
 												<key>uuid</key>
@@ -3136,7 +3136,7 @@
 											</dict>
 										</array>
 										<key>localPos</key>
-										<string>{32, 14}</string>
+										<string>{89, 68}</string>
 										<key>name</key>
 										<string>leftLowerArm</string>
 										<key>uuid</key>
@@ -3144,7 +3144,7 @@
 									</dict>
 								</array>
 								<key>localPos</key>
-								<string>{26, 44}</string>
+								<string>{61, 79}</string>
 								<key>name</key>
 								<string>leftUpperArm</string>
 								<key>uuid</key>
@@ -3152,7 +3152,7 @@
 							</dict>
 						</array>
 						<key>localPos</key>
-						<string>{16, 87}</string>
+						<string>{19, 94}</string>
 						<key>name</key>
 						<string>leftShoulder</string>
 						<key>rigid</key>
@@ -3167,7 +3167,7 @@
 								<key>children</key>
 								<array/>
 								<key>localPos</key>
-								<string>{19, 153}</string>
+								<string>{22, 152}</string>
 								<key>name</key>
 								<string>head</string>
 								<key>uuid</key>
@@ -3299,11 +3299,11 @@
 	<array>
 		<dict>
 			<key>angle</key>
-			<real>11.765716552734375</real>
+			<real>-45.510787963867188</real>
 			<key>boneUUID</key>
 			<string>7B7FE5B4-1B59-448F-AF51-9951A11F0AC0</string>
 			<key>localPos</key>
-			<string>{18, 61}</string>
+			<string>{42, 82}</string>
 			<key>skinName</key>
 			<string>shoulder_L_outline.png</string>
 			<key>skinUUID</key>
@@ -3315,11 +3315,11 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>76.903427124023438</real>
+			<real>20.15960693359375</real>
 			<key>boneUUID</key>
 			<string>FF87E76B-D23A-443F-9137-6B3AFD6A2234</string>
 			<key>localPos</key>
-			<string>{26, 26}</string>
+			<string>{76, 70}</string>
 			<key>skinName</key>
 			<string>forearm_L_outline.png</string>
 			<key>skinUUID</key>
@@ -3331,11 +3331,11 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>44.830917358398438</real>
+			<real>4.8234634399414062</real>
 			<key>boneUUID</key>
 			<string>A6F9F972-6AD6-466C-A6F6-9E9D28FAB450</string>
 			<key>localPos</key>
-			<string>{37, 6}</string>
+			<string>{98, 65}</string>
 			<key>skinName</key>
 			<string>hand_L_outline.png</string>
 			<key>skinUUID</key>
@@ -3347,7 +3347,7 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>-8.0168304443359375</real>
+			<real>-8.0167236328125</real>
 			<key>boneUUID</key>
 			<string>E08EFAEF-8EE3-489F-A94E-271778E069DA</string>
 			<key>localPos</key>
@@ -3379,7 +3379,7 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>2.1526260375976562</real>
+			<real>2.1525497436523438</real>
 			<key>boneUUID</key>
 			<string>D4C64572-88E9-47A2-94EE-7AD1FA25C1AC</string>
 			<key>localPos</key>
@@ -3411,7 +3411,7 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>5.7610015869140625</real>
+			<real>5.760986328125</real>
 			<key>boneUUID</key>
 			<string>32750077-2BA5-47F7-95C0-7E2EFA6E3D27</string>
 			<key>localPos</key>
@@ -3427,7 +3427,7 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>10.0872802734375</real>
+			<real>10.087249755859375</real>
 			<key>boneUUID</key>
 			<string>7324475C-AEC8-4F5E-AF36-CBBF7F897549</string>
 			<key>localPos</key>
@@ -3475,7 +3475,7 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>3.3610916137695312</real>
+			<real>3.3609695434570312</real>
 			<key>boneUUID</key>
 			<string>371F9268-BCB2-4F4E-88DA-37796B2E1ED8</string>
 			<key>localPos</key>
@@ -3539,11 +3539,11 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>-2.0932083129882812</real>
+			<real>3.4936141967773438</real>
 			<key>boneUUID</key>
 			<string>962E5653-28E4-4DF6-9A2F-35C44B51D17C</string>
 			<key>localPos</key>
-			<string>{16, 151}</string>
+			<string>{19, 149}</string>
 			<key>skinName</key>
 			<string>head.png</string>
 			<key>skinUUID</key>
@@ -3555,11 +3555,11 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>-2.0932083129882812</real>
+			<real>3.4936141967773438</real>
 			<key>boneUUID</key>
 			<string>962E5653-28E4-4DF6-9A2F-35C44B51D17C</string>
 			<key>localPos</key>
-			<string>{33, 152}</string>
+			<string>{36, 149}</string>
 			<key>skinName</key>
 			<string>eyes_OPEN.png</string>
 			<key>skinUUID</key>
@@ -3571,11 +3571,11 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>-2.0932083129882812</real>
+			<real>3.4936141967773438</real>
 			<key>boneUUID</key>
 			<string>962E5653-28E4-4DF6-9A2F-35C44B51D17C</string>
 			<key>localPos</key>
-			<string>{36, 131}</string>
+			<string>{37, 128}</string>
 			<key>skinName</key>
 			<string>mouth.png</string>
 			<key>skinUUID</key>
@@ -3587,11 +3587,11 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>-2.0932083129882812</real>
+			<real>3.4936141967773438</real>
 			<key>boneUUID</key>
 			<string>962E5653-28E4-4DF6-9A2F-35C44B51D17C</string>
 			<key>localPos</key>
-			<string>{13, 159}</string>
+			<string>{17, 158}</string>
 			<key>skinName</key>
 			<string>hair.png</string>
 			<key>skinUUID</key>
@@ -3603,11 +3603,11 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>-2.0931930541992188</real>
+			<real>3.4936294555664062</real>
 			<key>boneUUID</key>
 			<string>962E5653-28E4-4DF6-9A2F-35C44B51D17C</string>
 			<key>localPos</key>
-			<string>{14, 186}</string>
+			<string>{20, 185}</string>
 			<key>skinName</key>
 			<string>hat.png</string>
 			<key>skinUUID</key>
@@ -3619,11 +3619,11 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>-36.901504516601562</real>
+			<real>49.191635131835938</real>
 			<key>boneUUID</key>
 			<string>D8D11F2C-7CBE-483C-A4BC-EE1116A58300</string>
 			<key>localPos</key>
-			<string>{-17, -8}</string>
+			<string>{-113, 52}</string>
 			<key>skinName</key>
 			<string>hand_R_outline.png</string>
 			<key>skinUUID</key>
@@ -3635,11 +3635,11 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>-37.020111083984375</real>
+			<real>38.7142333984375</real>
 			<key>boneUUID</key>
 			<string>8B4B51F9-C980-4A17-86CE-155FA850600D</string>
 			<key>localPos</key>
-			<string>{-25, 64}</string>
+			<string>{-47, 87}</string>
 			<key>skinName</key>
 			<string>shoulder_R_outline.png</string>
 			<key>skinUUID</key>
@@ -3651,11 +3651,11 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>-8.8054351806640625</real>
+			<real>50.288467407226562</real>
 			<key>boneUUID</key>
 			<string>2EEAEFC3-D0D6-4931-8D4D-FF952C40EDE6</string>
 			<key>localPos</key>
-			<string>{-27, 21}</string>
+			<string>{-87, 73}</string>
 			<key>skinName</key>
 			<string>forearm_R_outline.png</string>
 			<key>skinUUID</key>
@@ -3667,11 +3667,11 @@
 		</dict>
 		<dict>
 			<key>angle</key>
-			<real>-34.469879150390625</real>
+			<real>51.623260498046875</real>
 			<key>boneUUID</key>
 			<string>D8D11F2C-7CBE-483C-A4BC-EE1116A58300</string>
 			<key>localPos</key>
-			<string>{25, -32}</string>
+			<string>{-134, 9}</string>
 			<key>skinName</key>
 			<string>muzzleFlash.png</string>
 			<key>skinUUID</key>
@@ -3685,7 +3685,7 @@
 			<key>angle</key>
 			<real>32.431705474853516</real>
 			<key>localPos</key>
-			<string>{26, 30}</string>
+			<string>{23, 33}</string>
 			<key>skinName</key>
 			<string>tennisBall.png</string>
 			<key>skinUUID</key>

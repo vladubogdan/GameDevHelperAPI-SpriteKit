@@ -11,9 +11,8 @@
 
 #import "ghConfig.h"
 
+#define GH_DEGREES_TO_RADIANS(angle) ((angle) / 180.0 * M_PI)
 
-#define GH_DEGREES_TO_RADIANS(angle) angle* 0.01745329252
-
-#define GH_RADIANS_TO_DEGREES(angle) angle * 57.29577951;
+#define GH_RADIANS_TO_DEGREES(radians) ((radians) * (180.0 / M_PI))
 
 #endif
