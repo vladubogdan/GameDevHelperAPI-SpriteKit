@@ -1,14 +1,14 @@
 //
-//  LoadSimpleSpritesScene.m
+//  LoadPhysicalSpritesScene.m
 //  GameDevHelperAPI-SpriteKit
 //
 //  Created by Bogdan Vladu on 6/14/13.
 //  Copyright (c) 2013 Bogdan Vladu. All rights reserved.
 //
 
-#import "LoadSimpleSpritesScene.h"
+#import "LoadPhysicalSpritesScene.h"
 
-@implementation LoadSimpleSpritesScene
+@implementation LoadPhysicalSpritesScene
 
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
@@ -16,14 +16,17 @@
         
         self.backgroundColor = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
         
+        
+        [self buildWorld];
+        
         SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Arial"];
-        myLabel.text = @"Load sprites using Sprite Kit";
+        myLabel.text = @"Load physical sprites using Sprite Kit";
         myLabel.fontSize = 12;
         myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
                                        CGRectGetMidY(self.frame));
         
         SKLabelNode *myLabel2 = [SKLabelNode labelNodeWithFontNamed:@"Arial"];
-        myLabel2.text = @"from SpriteHelper 2 generated Atlas file.";
+        myLabel2.text = @"from SpriteHelper 2 generated files.";
         myLabel2.fontSize = 12;
         myLabel2.position = CGPointMake(CGRectGetMidX(self.frame),
                                        CGRectGetMidY(self.frame)-12);
@@ -34,6 +37,16 @@
     }
     return self;
 }
+
+- (void)buildWorld {
+
+    // Configure physics for the world.
+    self.physicsWorld.gravity = CGPointMake(0, -2); // no gravity
+    
+    self.physicsBody = [SKPhysicsBody bodyWithEdgeLoopFromRect:self.frame];
+}
+
+
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
@@ -46,6 +59,7 @@
                                  @"hat",
                                  @"pineapple",
                                  @"statue",
+                                 @"ball",
                                  nil];
     
     
@@ -57,7 +71,9 @@
     for (UITouch *touch in touches) {
         CGPoint location = [touch locationInNode:self];
         
-        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:spriteImageName];
+        GHSprite* sprite = [GHSprite spriteNodeWithImageNamed:spriteImageName
+                                              physicsFileName:@"PhysicalSpritesObjects_Objects"
+                                                    directory:@"bodies"];
         
         sprite.position = location;
         

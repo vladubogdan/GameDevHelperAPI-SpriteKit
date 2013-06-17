@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>about</key>
+	<dict>
+		<key>app</key>
+		<string>SpriteHelper</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>format</key>
+	<string>APPL</string>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>PhysicalSpritesObjects.1.png</string>
+			<key>size</key>
+			<string>{122, 131}</string>
+			<key>subimages</key>
+			<array>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>statue</string>
+					<key>spriteOffset</key>
+					<string>{4, 3}</string>
+					<key>spriteSourceSize</key>
+					<string>{53, 74}</string>
+					<key>textureRect</key>
+					<string>{{1, 1}, {46, 69}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>ball</string>
+					<key>spriteOffset</key>
+					<string>{0, 0}</string>
+					<key>spriteSourceSize</key>
+					<string>{13, 13}</string>
+					<key>textureRect</key>
+					<string>{{99, 1}, {13, 13}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>backpack</string>
+					<key>spriteOffset</key>
+					<string>{3, 3}</string>
+					<key>spriteSourceSize</key>
+					<string>{45, 53}</string>
+					<key>textureRect</key>
+					<string>{{1, 72}, {40, 48}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>canteen</string>
+					<key>spriteOffset</key>
+					<string>{4, 4}</string>
+					<key>spriteSourceSize</key>
+					<string>{30, 39}</string>
+					<key>textureRect</key>
+					<string>{{76, 1}, {21, 32}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>pineapple</string>
+					<key>spriteOffset</key>
+					<string>{3, 3}</string>
+					<key>spriteSourceSize</key>
+					<string>{30, 67}</string>
+					<key>textureRect</key>
+					<string>{{49, 1}, {25, 63}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>banana</string>
+					<key>spriteOffset</key>
+					<string>{3, 2}</string>
+					<key>spriteSourceSize</key>
+					<string>{46, 32}</string>
+					<key>textureRect</key>
+					<string>{{77, 36}, {41, 28}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>bananabunch</string>
+					<key>spriteOffset</key>
+					<string>{4, 3}</string>
+					<key>spriteSourceSize</key>
+					<string>{44, 33}</string>
+					<key>textureRect</key>
+					<string>{{43, 100}, {39, 27}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>hat</string>
+					<key>spriteOffset</key>
+					<string>{4, 3}</string>
+					<key>spriteSourceSize</key>
+					<string>{61, 38}</string>
+					<key>textureRect</key>
+					<string>{{50, 66}, {54, 32}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>PhysicalSpritesObjects.1@2x.png</string>
+			<key>size</key>
+			<string>{238, 258}</string>
+			<key>subimages</key>
+			<array>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>statue@2x</string>
+					<key>spriteOffset</key>
+					<string>{8, 5}</string>
+					<key>spriteSourceSize</key>
+					<string>{105, 148}</string>
+					<key>textureRect</key>
+					<string>{{2, 2}, {92, 138}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>ball@2x</string>
+					<key>spriteOffset</key>
+					<string>{0, 0}</string>
+					<key>spriteSourceSize</key>
+					<string>{26, 26}</string>
+					<key>textureRect</key>
+					<string>{{198, 2}, {26, 26}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>backpack@2x</string>
+					<key>spriteOffset</key>
+					<string>{5, 6}</string>
+					<key>spriteSourceSize</key>
+					<string>{90, 106}</string>
+					<key>textureRect</key>
+					<string>{{2, 145}, {80, 95}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>canteen@2x</string>
+					<key>spriteOffset</key>
+					<string>{8, 8}</string>
+					<key>spriteSourceSize</key>
+					<string>{60, 78}</string>
+					<key>textureRect</key>
+					<string>{{153, 2}, {42, 65}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>pineapple@2x</string>
+					<key>spriteOffset</key>
+					<string>{7, 5}</string>
+					<key>spriteSourceSize</key>
+					<string>{61, 134}</string>
+					<key>textureRect</key>
+					<string>{{99, 2}, {50, 126}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>banana@2x</string>
+					<key>spriteOffset</key>
+					<string>{5, 4}</string>
+					<key>spriteSourceSize</key>
+					<string>{92, 64}</string>
+					<key>textureRect</key>
+					<string>{{152, 71}, {82, 56}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>bananabunch@2x</string>
+					<key>spriteOffset</key>
+					<string>{7, 6}</string>
+					<key>spriteSourceSize</key>
+					<string>{88, 65}</string>
+					<key>textureRect</key>
+					<string>{{86, 199}, {77, 55}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>hat@2x</string>
+					<key>spriteOffset</key>
+					<string>{7, 6}</string>
+					<key>spriteSourceSize</key>
+					<string>{122, 75}</string>
+					<key>textureRect</key>
+					<string>{{98, 132}, {109, 63}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>path</key>
+			<string>PhysicalSpritesObjects.1@4x.png</string>
+			<key>size</key>
+			<string>{471, 510}</string>
+			<key>subimages</key>
+			<array>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>statue@4x</string>
+					<key>spriteOffset</key>
+					<string>{15, 10}</string>
+					<key>spriteSourceSize</key>
+					<string>{210, 295}</string>
+					<key>textureRect</key>
+					<string>{{4, 4}, {184, 276}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>ball@4x</string>
+					<key>spriteOffset</key>
+					<string>{0, 0}</string>
+					<key>spriteSourceSize</key>
+					<string>{52, 52}</string>
+					<key>textureRect</key>
+					<string>{{396, 4}, {52, 52}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>backpack@4x</string>
+					<key>spriteOffset</key>
+					<string>{10, 11}</string>
+					<key>spriteSourceSize</key>
+					<string>{179, 212}</string>
+					<key>textureRect</key>
+					<string>{{4, 288}, {159, 190}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>canteen@4x</string>
+					<key>spriteOffset</key>
+					<string>{15, 15}</string>
+					<key>spriteSourceSize</key>
+					<string>{119, 156}</string>
+					<key>textureRect</key>
+					<string>{{304, 4}, {84, 129}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>pineapple@4x</string>
+					<key>spriteOffset</key>
+					<string>{13, 10}</string>
+					<key>spriteSourceSize</key>
+					<string>{121, 267}</string>
+					<key>textureRect</key>
+					<string>{{196, 4}, {100, 251}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>banana@4x</string>
+					<key>spriteOffset</key>
+					<string>{10, 7}</string>
+					<key>spriteSourceSize</key>
+					<string>{183, 127}</string>
+					<key>textureRect</key>
+					<string>{{304, 141}, {163, 111}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>bananabunch@4x</string>
+					<key>spriteOffset</key>
+					<string>{14, 11}</string>
+					<key>spriteSourceSize</key>
+					<string>{175, 130}</string>
+					<key>textureRect</key>
+					<string>{{171, 397}, {154, 109}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>isFullyOpaque</key>
+					<false/>
+					<key>name</key>
+					<string>hat@4x</string>
+					<key>spriteOffset</key>
+					<string>{14, 11}</string>
+					<key>spriteSourceSize</key>
+					<string>{244, 150}</string>
+					<key>textureRect</key>
+					<string>{{196, 263}, {217, 126}}</string>
+					<key>textureRotated</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "LoadSimpleSpritesScene.h"
+#import "LoadPhysicalSpritesScene.h"
+#import "LoadSkeletonScene.h"
 
 @interface ViewController ()
 {
@@ -16,6 +18,7 @@
 @property (nonatomic) IBOutlet UIButton *backButton;
 @property (nonatomic) IBOutlet UIButton *loadSpritesBut;
 @property (nonatomic) IBOutlet UIButton *loadPhysicalSpritesBut;
+@property (nonatomic) IBOutlet UIButton *loadSkeletonBut;
 @end
 
 
@@ -36,7 +39,7 @@
 
 - (void)viewDidLoad
 {
-    menuButtons = @[_loadSpritesBut, _loadPhysicalSpritesBut];
+    menuButtons = @[_loadSpritesBut, _loadPhysicalSpritesBut, _loadSkeletonBut];
     
     [super viewDidLoad];
 
@@ -66,15 +69,29 @@
 
 -(IBAction)loadPhysicalSprites:(id)sender
 {
-//    SKView * skView = (SKView *)self.view;
-//    
-//    // Create and configure the scene.
-//    SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
-//    scene.scaleMode = SKSceneScaleModeAspectFill;
-//    
-//    [self goToScene];
-//    // Present the scene.
-//    [skView presentScene:scene];
+    SKView * skView = (SKView *)self.view;
+    
+    // Create and configure the scene.
+    SKScene * scene = [LoadPhysicalSpritesScene sceneWithSize:skView.bounds.size];
+    scene.scaleMode = SKSceneScaleModeAspectFill;
+    
+    [self goToScene];
+    // Present the scene.
+    [skView presentScene:scene];
+}
+
+
+-(IBAction)loadSkeleton:(id)sender
+{
+    SKView * skView = (SKView *)self.view;
+    
+    // Create and configure the scene.
+    SKScene * scene = [LoadSkeletonScene sceneWithSize:skView.bounds.size];
+    scene.scaleMode = SKSceneScaleModeAspectFill;
+    
+    [self goToScene];
+    // Present the scene.
+    [skView presentScene:scene];
 }
 
 

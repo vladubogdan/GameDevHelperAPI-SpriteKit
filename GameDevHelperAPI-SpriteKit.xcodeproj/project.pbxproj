@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6EC1789F176B72A1000E6BFF /* Test.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6EC1789E176B72A1000E6BFF /* Test.atlas */; };
-		6EC178A1176B74E4000E6BFF /* loadSprites.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 6EC178A0176B74E4000E6BFF /* loadSprites.atlasc */; };
 		6ECC0CCF176B331000763EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC0CCE176B331000763EF7 /* Foundation.framework */; };
 		6ECC0CD1176B331100763EF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC0CD0176B331100763EF7 /* CoreGraphics.framework */; };
 		6ECC0CD3176B331100763EF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC0CD2176B331100763EF7 /* UIKit.framework */; };
@@ -27,6 +25,19 @@
 		6ECC0CFA176B331100763EF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECC0CD2176B331100763EF7 /* UIKit.framework */; };
 		6ECC0D02176B331100763EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ECC0D00176B331100763EF7 /* InfoPlist.strings */; };
 		6ECC0D04176B331100763EF7 /* GameDevHelperAPI_SpriteKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC0D03176B331100763EF7 /* GameDevHelperAPI_SpriteKitTests.m */; };
+		6EE13B11176F034A0047FEB2 /* loadSprites.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 6EE13B10176F034A0047FEB2 /* loadSprites.atlasc */; };
+		6EE13B14176F04310047FEB2 /* LoadPhysicalSpritesScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B13176F04310047FEB2 /* LoadPhysicalSpritesScene.m */; };
+		6EE13B18176F085A0047FEB2 /* GHSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B17176F085A0047FEB2 /* GHSprite.m */; };
+		6EE13B1D176F20FD0047FEB2 /* bodies in Resources */ = {isa = PBXBuildFile; fileRef = 6EE13B1B176F20FD0047FEB2 /* bodies */; };
+		6EE13B1E176F20FD0047FEB2 /* PhysicalSpritesObjects.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 6EE13B1C176F20FD0047FEB2 /* PhysicalSpritesObjects.atlasc */; };
+		6EE13B29176F34C60047FEB2 /* GHBone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B20176F34C60047FEB2 /* GHBone.mm */; };
+		6EE13B2A176F34C60047FEB2 /* GHBoneSkin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B22176F34C60047FEB2 /* GHBoneSkin.mm */; };
+		6EE13B2B176F34C60047FEB2 /* GHSkeletalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B24176F34C60047FEB2 /* GHSkeletalAnimation.m */; };
+		6EE13B2C176F34C60047FEB2 /* GHSkeletalAnimationCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B26176F34C60047FEB2 /* GHSkeletalAnimationCache.mm */; };
+		6EE13B2D176F34C60047FEB2 /* GHSkeleton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B28176F34C60047FEB2 /* GHSkeleton.mm */; };
+		6EE13B31176F3CE50047FEB2 /* LoadSkeletonScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE13B30176F3CE50047FEB2 /* LoadSkeletonScene.m */; };
+		6EE13B34176F3EC90047FEB2 /* Officer.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 6EE13B32176F3EC90047FEB2 /* Officer.atlasc */; };
+		6EE13B35176F3EC90047FEB2 /* skeletons in Resources */ = {isa = PBXBuildFile; fileRef = 6EE13B33176F3EC90047FEB2 /* skeletons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6EC1789E176B72A1000E6BFF /* Test.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Test.atlas; sourceTree = "<group>"; };
-		6EC178A0176B74E4000E6BFF /* loadSprites.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = loadSprites.atlasc; sourceTree = "<group>"; };
 		6ECC0CCB176B331000763EF7 /* GameDevHelperAPI-SpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameDevHelperAPI-SpriteKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECC0CCE176B331000763EF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6ECC0CD0176B331100763EF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,6 +75,30 @@
 		6ECC0CFF176B331100763EF7 /* GameDevHelperAPI-SpriteKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameDevHelperAPI-SpriteKitTests-Info.plist"; sourceTree = "<group>"; };
 		6ECC0D01176B331100763EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6ECC0D03176B331100763EF7 /* GameDevHelperAPI_SpriteKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameDevHelperAPI_SpriteKitTests.m; sourceTree = "<group>"; };
+		6EE13B10176F034A0047FEB2 /* loadSprites.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = loadSprites.atlasc; sourceTree = "<group>"; };
+		6EE13B12176F04310047FEB2 /* LoadPhysicalSpritesScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadPhysicalSpritesScene.h; sourceTree = "<group>"; };
+		6EE13B13176F04310047FEB2 /* LoadPhysicalSpritesScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadPhysicalSpritesScene.m; sourceTree = "<group>"; };
+		6EE13B16176F085A0047FEB2 /* GHSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSprite.h; sourceTree = "<group>"; };
+		6EE13B17176F085A0047FEB2 /* GHSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHSprite.m; sourceTree = "<group>"; };
+		6EE13B19176F09CA0047FEB2 /* GameDevHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDevHelper.h; sourceTree = "<group>"; };
+		6EE13B1A176F0A420047FEB2 /* ghConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ghConfig.h; sourceTree = "<group>"; };
+		6EE13B1B176F20FD0047FEB2 /* bodies */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bodies; sourceTree = "<group>"; };
+		6EE13B1C176F20FD0047FEB2 /* PhysicalSpritesObjects.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PhysicalSpritesObjects.atlasc; sourceTree = "<group>"; };
+		6EE13B1F176F34C60047FEB2 /* GHBone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBone.h; sourceTree = "<group>"; };
+		6EE13B20176F34C60047FEB2 /* GHBone.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHBone.mm; sourceTree = "<group>"; };
+		6EE13B21176F34C60047FEB2 /* GHBoneSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBoneSkin.h; sourceTree = "<group>"; };
+		6EE13B22176F34C60047FEB2 /* GHBoneSkin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHBoneSkin.mm; sourceTree = "<group>"; };
+		6EE13B23176F34C60047FEB2 /* GHSkeletalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSkeletalAnimation.h; sourceTree = "<group>"; };
+		6EE13B24176F34C60047FEB2 /* GHSkeletalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHSkeletalAnimation.m; sourceTree = "<group>"; };
+		6EE13B25176F34C60047FEB2 /* GHSkeletalAnimationCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSkeletalAnimationCache.h; sourceTree = "<group>"; };
+		6EE13B26176F34C60047FEB2 /* GHSkeletalAnimationCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHSkeletalAnimationCache.mm; sourceTree = "<group>"; };
+		6EE13B27176F34C60047FEB2 /* GHSkeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSkeleton.h; sourceTree = "<group>"; };
+		6EE13B28176F34C60047FEB2 /* GHSkeleton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHSkeleton.mm; sourceTree = "<group>"; };
+		6EE13B2E176F394A0047FEB2 /* ghMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ghMacros.h; sourceTree = "<group>"; };
+		6EE13B2F176F3CE50047FEB2 /* LoadSkeletonScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadSkeletonScene.h; sourceTree = "<group>"; };
+		6EE13B30176F3CE50047FEB2 /* LoadSkeletonScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadSkeletonScene.m; sourceTree = "<group>"; };
+		6EE13B32176F3EC90047FEB2 /* Officer.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Officer.atlasc; sourceTree = "<group>"; };
+		6EE13B33176F3EC90047FEB2 /* skeletons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = skeletons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +129,11 @@
 		6EC1788A176B6613000E6BFF /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				6EC178A0176B74E4000E6BFF /* loadSprites.atlasc */,
-				6EC1789E176B72A1000E6BFF /* Test.atlas */,
+				6EE13B32176F3EC90047FEB2 /* Officer.atlasc */,
+				6EE13B33176F3EC90047FEB2 /* skeletons */,
+				6EE13B1B176F20FD0047FEB2 /* bodies */,
+				6EE13B1C176F20FD0047FEB2 /* PhysicalSpritesObjects.atlasc */,
+				6EE13B10176F034A0047FEB2 /* loadSprites.atlasc */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -136,6 +172,7 @@
 		6ECC0CD6176B331100763EF7 /* GameDevHelperAPI-SpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				6EE13B15176F08480047FEB2 /* GameDevHelperAPI */,
 				6ECC0CDF176B331100763EF7 /* AppDelegate.h */,
 				6ECC0CE0176B331100763EF7 /* AppDelegate.m */,
 				6ECC0CE2176B331100763EF7 /* Main_iPhone.storyboard */,
@@ -144,6 +181,10 @@
 				6ECC0CE9176B331100763EF7 /* ViewController.m */,
 				6ECC0CEB176B331100763EF7 /* LoadSimpleSpritesScene.h */,
 				6ECC0CEC176B331100763EF7 /* LoadSimpleSpritesScene.m */,
+				6EE13B12176F04310047FEB2 /* LoadPhysicalSpritesScene.h */,
+				6EE13B13176F04310047FEB2 /* LoadPhysicalSpritesScene.m */,
+				6EE13B2F176F3CE50047FEB2 /* LoadSkeletonScene.h */,
+				6EE13B30176F3CE50047FEB2 /* LoadSkeletonScene.m */,
 				6ECC0CEE176B331100763EF7 /* Spaceship.png */,
 				6ECC0CF0176B331100763EF7 /* Images.xcassets */,
 				6ECC0CD7176B331100763EF7 /* Supporting Files */,
@@ -180,6 +221,28 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		6EE13B15176F08480047FEB2 /* GameDevHelperAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6EE13B1F176F34C60047FEB2 /* GHBone.h */,
+				6EE13B20176F34C60047FEB2 /* GHBone.mm */,
+				6EE13B21176F34C60047FEB2 /* GHBoneSkin.h */,
+				6EE13B22176F34C60047FEB2 /* GHBoneSkin.mm */,
+				6EE13B23176F34C60047FEB2 /* GHSkeletalAnimation.h */,
+				6EE13B24176F34C60047FEB2 /* GHSkeletalAnimation.m */,
+				6EE13B25176F34C60047FEB2 /* GHSkeletalAnimationCache.h */,
+				6EE13B26176F34C60047FEB2 /* GHSkeletalAnimationCache.mm */,
+				6EE13B27176F34C60047FEB2 /* GHSkeleton.h */,
+				6EE13B28176F34C60047FEB2 /* GHSkeleton.mm */,
+				6EE13B16176F085A0047FEB2 /* GHSprite.h */,
+				6EE13B17176F085A0047FEB2 /* GHSprite.m */,
+				6EE13B1A176F0A420047FEB2 /* ghConfig.h */,
+				6EE13B2E176F394A0047FEB2 /* ghMacros.h */,
+				6EE13B19176F09CA0047FEB2 /* GameDevHelper.h */,
+			);
+			path = GameDevHelperAPI;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -258,10 +321,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ECC0CEF176B331100763EF7 /* Spaceship.png in Resources */,
-				6EC178A1176B74E4000E6BFF /* loadSprites.atlasc in Resources */,
+				6EE13B35176F3EC90047FEB2 /* skeletons in Resources */,
 				6ECC0CF1176B331100763EF7 /* Images.xcassets in Resources */,
+				6EE13B34176F3EC90047FEB2 /* Officer.atlasc in Resources */,
+				6EE13B1D176F20FD0047FEB2 /* bodies in Resources */,
+				6EE13B11176F034A0047FEB2 /* loadSprites.atlasc in Resources */,
+				6EE13B1E176F20FD0047FEB2 /* PhysicalSpritesObjects.atlasc in Resources */,
 				6ECC0CE7176B331100763EF7 /* Main_iPad.storyboard in Resources */,
-				6EC1789F176B72A1000E6BFF /* Test.atlas in Resources */,
 				6ECC0CE4176B331100763EF7 /* Main_iPhone.storyboard in Resources */,
 				6ECC0CDB176B331100763EF7 /* InfoPlist.strings in Resources */,
 			);
@@ -283,7 +349,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ECC0CED176B331100763EF7 /* LoadSimpleSpritesScene.m in Sources */,
+				6EE13B31176F3CE50047FEB2 /* LoadSkeletonScene.m in Sources */,
+				6EE13B2B176F34C60047FEB2 /* GHSkeletalAnimation.m in Sources */,
+				6EE13B18176F085A0047FEB2 /* GHSprite.m in Sources */,
+				6EE13B14176F04310047FEB2 /* LoadPhysicalSpritesScene.m in Sources */,
 				6ECC0CEA176B331100763EF7 /* ViewController.m in Sources */,
+				6EE13B2C176F34C60047FEB2 /* GHSkeletalAnimationCache.mm in Sources */,
+				6EE13B2D176F34C60047FEB2 /* GHSkeleton.mm in Sources */,
+				6EE13B29176F34C60047FEB2 /* GHBone.mm in Sources */,
+				6EE13B2A176F34C60047FEB2 /* GHBoneSkin.mm in Sources */,
 				6ECC0CE1176B331100763EF7 /* AppDelegate.m in Sources */,
 				6ECC0CDD176B331100763EF7 /* main.m in Sources */,
 			);
