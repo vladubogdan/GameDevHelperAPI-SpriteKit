@@ -179,73 +179,89 @@
             }
         }
         else{//create using points
+            
+            NSArray* fixtures = [shInfo objectForKey:@"fixtures"];
+            bool firstFixtureNode = true;
+            for(NSArray* fixPoints in fixtures)
+            {
+                int count = (int)[fixPoints count];
+                CGPoint points[count];
+                
+                int i = count - 1;
+                for(int j = 0; j< count; ++j)
+                {
+                    NSString* pointStr = [fixPoints objectAtIndex:(NSUInteger)j];
+                    CGPoint point = CGPointFromString(pointStr);
 
-            NSLog(@"SpriteKit does not currently support complex polygons");
-            
-//            CGMutablePathRef bodyPath =  CGPathCreateMutable();
-//            CGPathMoveToPoint(bodyPath, nil, 0, 0);
-////            
-//            NSArray* fixtures = [shInfo objectForKey:@"fixtures"];
-//            for(NSArray* fixPoints in fixtures)
-//            {
-//                int count = (int)[fixPoints count];
-//
-////                NSMutableArray* verts = [NSMutableArray arrayWithCapacity:count];
-//                
-//                int i = count - 1;
-//                for(int j = 0; j< count; ++j)
-//                {
-//                    NSString* pointStr = [fixPoints objectAtIndex:(NSUInteger)j];
-//                    CGPoint point = CGPointFromString(pointStr);
-//
-//                    //flip y for sprite kit coordinate system
-//                    point.y =  self.size.height - point.y;
-//                    point.y = point.y - self.size.height;
-//
-////                    [verts replaceObjectAtIndex:i withObject:[NSValue valueWithCGPoint:point]];
-//                    i = i-1;
-//                }
-//                
-//                CGMutablePathRef fixPath =  CGPathCreateMutable();
-//                
-//                bool first = true;
-//                for(NSValue* val in verts)
-//                {
-//                    CGPoint point = [val CGPointValue];
-//                    
-//                    if(first){
-//                        CGPathMoveToPoint(fixPath, nil, point.x, point.y);
-//                    }
-//                    else{
-//                        CGPathAddLineToPoint(fixPath, nil, point.x, point.y);
-//                    }
-//                    first = false;
-//                }
-//                if(self.physicsBody == nil){
-//                    self.physicsBody = [SKPhysicsBody bodyWithPolygonFromPath:fixPath];
-//                }
-//                CGPathAddPath(bodyPath,
-//                              nil, fixPath);
-//                
-//            }
-//            
-//            //self.physicsBody = [SKPhysicsBody bodyWithPolygonFromPath:bodyPath];
-//
-//            
-//            self.physicsBody.friction = friction;
-//            self.physicsBody.restitution = restitution;
-//            self.physicsBody.density = density;
-//            
-//            NSNumber* cat = [shInfo objectForKey:@"category"];
-//            NSNumber* mask = [shInfo objectForKey:@"mask"];
-//            
-//            if(cat && mask)
-//            {
-//                self.physicsBody.categoryBitMask  = [cat intValue];
-//                self.physicsBody.collisionBitMask = [mask intValue];
-//            }
-//
-            
+                    point.x *=2;
+                    point.y *=2;
+                    
+                    //flip y for sprite kit coordinate system
+                    point.y =  self.size.height - point.y;
+                    point.y = point.y - self.size.height;
+
+                    points[j] = point;
+                    i = i-1;
+                }
+                
+
+                CGMutablePathRef fixPath =  CGPathCreateMutable();
+                
+                bool first = true;
+                for(int k = 0; k < count; ++k)
+                {
+                    CGPoint point = points[k];
+                    if(first){
+                        CGPathMoveToPoint(fixPath, nil, point.x, point.y);
+                    }
+                    else{
+                        CGPathAddLineToPoint(fixPath, nil, point.x, point.y);
+                    }
+                    first = false;
+                }
+                
+                
+                SKNode* fixtureNode = self;
+                if(!firstFixtureNode){
+//                    fixtureNode = [SKNode node];
+                    fixtureNode = [SKShapeNode node];
+                    [(SKShapeNode*)fixtureNode setPath:fixPath];
+                }
+                firstFixtureNode = false;
+                
+                
+                
+                fixtureNode.physicsBody = [SKPhysicsBody bodyWithPolygonFromPath:fixPath];
+                
+                fixtureNode.physicsBody.friction = friction;
+                fixtureNode.physicsBody.restitution = restitution;
+                fixtureNode.physicsBody.density = density;
+                
+                NSNumber* cat = [shInfo objectForKey:@"category"];
+                NSNumber* mask = [shInfo objectForKey:@"mask"];
+                
+                if(cat && mask)
+                {
+                    fixtureNode.physicsBody.categoryBitMask  = [cat intValue];
+                    fixtureNode.physicsBody.collisionBitMask = [mask intValue];
+                }
+                
+                int type = [[physicsInfo objectForKey:@"type"] intValue];
+                if(type == 3)//NO PHYSICS
+                    return;
+                
+                fixtureNode.physicsBody.dynamic = NO;
+                if(type == 2)//dynamic
+//                    fixtureNode.physicsBody.dynamic = YES;
+                
+                fixtureNode.physicsBody.allowsRotation = ![[physicsInfo objectForKey:@"fixed"] boolValue];
+
+                if(self != fixtureNode)
+                    [self addChild:fixtureNode];
+
+                NSLog(@"DID ADD FIXTURE NODE body %p %d", fixtureNode.physicsBody, fixtureNode.physicsBody.dynamic);
+
+            }
         }
     }
     
